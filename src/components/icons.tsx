@@ -7,9 +7,9 @@ interface IconsProps {
 
 const Icons: React.FC<IconsProps> = ({ label }) => {
     return (
-        <span className={label}>
+        <p className="mt-4 text-xl">
             {label}
-        </span>
+        </p>
     )
 }
 

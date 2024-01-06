@@ -3,14 +3,15 @@
 import Header from './components/header'
 import { Projects } from './components/projects'
 
+
 function App() {
 
   return (
     <>
-      <Header></Header>
-      <Projects></Projects>
-      {/* <Count />
-      <SectionProps title="My new title">my children</SectionProps> */}
+      <div className="text-blue0">
+        <Header></Header>
+        <Projects></Projects>
+      </div>
     </>
   )
 }

@@ -11,7 +11,8 @@ export const Projects = () => {
                       This web database stores college housing reviews using Firebase."
                 image="src/assets/project-images/placeholder.jpg"
                 title="Cornell University Housing"
-                skills={["React", "Typescript", "Firebase", "Google Maps API", "HTML/CSS"]} />
+                skills={["React", "Typescript", "Firebase", "HTML/CSS"]}
+                moreInfo="" />
             <ProjectDetail
                 github="https://github.com/leahsliu/music-catalog"
                 desc="Designed a media catalog, storing data in SQL relational 
@@ -23,14 +24,17 @@ export const Projects = () => {
                       is consistently enriched with the latest information."
                 image="src/assets/project-images/placeholder.jpg"
                 title="Music Catalog"
-                skills={["Docker", "SQL", "PHP", "JavaScript", "HTML/CSS", "Airflow"]} />
+                skills={["Docker", "SQL", "PHP", "JavaScript", "HTML/CSS", "Airflow"]}
+                moreInfo="" />
             <ProjectDetail
                 github="https://github.com/leahsliu/portfolio"
                 desc="Personal website with some recent projects. Want to see how my 
-                      website has evolved over the years? Click here."
+                      website has evolved over the years? Click here to see videos
+                      and past tech stacks used."
                 image="src/assets/project-images/placeholder.jpg"
                 title="Portfolio"
-                skills={["React", "Typescript", "Tailwind CSS"]} />
-        </div>
+                skills={["React", "Typescript", "Tailwind CSS"]}
+                moreInfo="" />
+        </div >
     )
 }
