@@ -9,7 +9,7 @@ export const Projects = () => {
                 desc="CU Housing is the place for students to find information
                       about on and off-campus housing at Cornell University. 
                       This web database stores college housing reviews using Firebase."
-                image="public/assets/project-images/placeholder.jpg"
+                image="assets/project-images/placeholder.jpg"
                 title="Cornell University Housing"
                 skills={["React", "Typescript", "Firebase", "HTML/CSS"]}
                 moreInfo="" />
@@ -22,7 +22,7 @@ export const Projects = () => {
                       Load (ETL) pipeline using Apache Airflow. This automation
                       daily collects intricate song data, ensuring the catalog 
                       is consistently enriched with the latest information."
-                image="public/assets/project-images/placeholder.jpg"
+                image="assets/project-images/placeholder.jpg"
                 title="Music Catalog"
                 skills={["Docker", "SQL", "PHP", "JavaScript", "HTML/CSS", "Airflow"]}
                 moreInfo="" />
@@ -31,7 +31,7 @@ export const Projects = () => {
                 desc="Personal website with some recent projects. Want to see how my 
                       website has evolved over the years? Click on the 'Portfolio' header
                       to see videos and past tech stacks used."
-                image="public/assets/project-images/placeholder.jpg"
+                image="assets/project-images/placeholder.jpg"
                 title="Portfolio"
                 skills={["React", "Typescript", "Tailwind CSS"]}
                 moreInfo="https://leahliuportfolio.notion.site/Portfolio-c954266db8ca4334b01547f707fb79ed?pvs=4" />
