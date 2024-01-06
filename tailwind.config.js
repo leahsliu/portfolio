@@ -12,6 +12,9 @@ export default {
         'purple0': '#4C1E92',
         'red0': '#932432',
         'blue0': '#222E3C'
+      },
+      screens: {
+        'xsmall': { 'raw': '(max-width: 640px)' }
       }
     }
   },
