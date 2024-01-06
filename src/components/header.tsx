@@ -1,7 +1,7 @@
 // import GithubIcon from "../assets/logos/github.png"
-import '../assets/fontawesome/css/fontawesome.css'
-import '../assets/fontawesome/css/brands.css'
-import '../assets/fontawesome/css/solid.css'
+import '../../public/assets/fontawesome/css/fontawesome.css'
+import '../../public/assets/fontawesome/css/brands.css'
+import '../../public/assets/fontawesome/css/solid.css'
 
 // import LinkedIcon from "../assets/logos/linkedin.png"
 // import ProjectsIcon from "../assets/logos/projects.png"
