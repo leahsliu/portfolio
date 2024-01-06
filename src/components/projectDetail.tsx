@@ -10,6 +10,7 @@ interface Project {
 }
 
 const ProjectDetail: React.FC<Project> = ({ title, image, github, desc, skills, moreInfo }) => {
+
     return (
         <div className="container w-8/12 project-detail flex lg:flex-row-reverse
                         justify-start content-start mx-auto gap-4 mb-2
@@ -21,8 +22,8 @@ const ProjectDetail: React.FC<Project> = ({ title, image, github, desc, skills, 
             <div className="mx-auto sm:max-w-[500px]">
                 <div className="flex lg:flex-row items-center gap-4 project-header mb-2
                                 xsmall:flex-col sm:flex-col">
-                    <a className="hover:text-purple0" href={moreInfo}><h3 className="text-2xl">{title}</h3></a>
-                    <span className="text-red0 text-xl hover:text-purple0"><a href={github}>GitHub</a></span>
+                    <a className="hover:text-purple0" href={moreInfo} target="_blank"><h3 className="text-2xl">{title}</h3></a>
+                    <span className="text-red0 text-xl hover:text-purple0"><a href={github} target="_blank">GitHub</a></span>
 
                 </div>
                 <div className="skill-container flex flex-row flex-wrap">

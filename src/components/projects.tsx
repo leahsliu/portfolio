@@ -29,12 +29,12 @@ export const Projects = () => {
             <ProjectDetail
                 github="https://github.com/leahsliu/portfolio"
                 desc="Personal website with some recent projects. Want to see how my 
-                      website has evolved over the years? Click here to see videos
-                      and past tech stacks used."
+                      website has evolved over the years? Click on the 'Portfolio' header
+                      to see videos and past tech stacks used."
                 image="src/assets/project-images/placeholder.jpg"
                 title="Portfolio"
                 skills={["React", "Typescript", "Tailwind CSS"]}
-                moreInfo="" />
+                moreInfo="https://leahliuportfolio.notion.site/Portfolio-c954266db8ca4334b01547f707fb79ed?pvs=4" />
         </div >
     )
 }
