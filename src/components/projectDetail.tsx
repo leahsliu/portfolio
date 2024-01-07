@@ -1,4 +1,5 @@
 import React from "react";
+import ReactMarkdown from 'react-markdown';
 
 interface Project {
     image: string,
@@ -10,7 +11,7 @@ interface Project {
 }
 
 const ProjectDetail: React.FC<Project> = ({ title, image, github, desc, skills, moreInfo }) => {
-
+    const linkStyle = { color: "#932432" };
     return (
         <div className="container w-8/12 project-detail flex lg:flex-row-reverse
                         justify-start content-start mx-auto gap-4 mb-2
@@ -35,7 +36,14 @@ const ProjectDetail: React.FC<Project> = ({ title, image, github, desc, skills, 
                         </span>
                     ))}
                 </div>
-                <p>{desc}</p>
+                <span><ReactMarkdown
+                    components={{
+                        a: ({ href, children }) => (
+                            <a href={href} style={linkStyle} target="_blank" rel="noopener noreferrer">
+                                {children}
+                            </a>
+                        ),
+                    }}>{desc}</ReactMarkdown></span>
             </div>
         </div>
     )
