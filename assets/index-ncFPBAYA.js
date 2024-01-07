@@ -69,7 +69,7 @@ Error generating stack: `+l.message+`
                       pudding.cool to scrape artist headshots and get a list of rappers
                       from the 2010s.`,image:"assets/project-images/placeholder.jpg",title:"Rapper Hits Data Visualization",skills:["Javascript (D3)","Python","Bootstrap","HTML/CSS"],moreInfo:"https://leahliuportfolio.notion.site/Rapper-Data-Visualization-using-D3-0c9169b59b5c4ff788d9a617bf644434?pvs=4"}),H.jsx(dr,{github:"https://github.com/pdan101/CU-Housing",desc:`CU Housing is the place for students to find information
                       about on and off-campus housing at Cornell University. 
-                      This web database stores college housing reviews using Firebase.`,image:"assets/project-images/placeholder.jpg",title:"Cornell University Housing",skills:["React","Typescript","Firebase","HTML/CSS"],moreInfo:"https://github.com/pdan101/CU-Housing"}),H.jsx(dr,{github:"https://github.com/leahsliu/music-catalog",desc:`Designed a media catalog, storing data in SQL relational 
+                      This web database stores college housing reviews using Firebase.`,image:"assets/project-images/placeholder.jpg",title:"Cornell University Housing",skills:["React","Typescript","Firebase","HTML/CSS"],moreInfo:"https://leahliuportfolio.notion.site/CU-Housing-6b40fccb207b4b35829ee23754e4e417?pvs=4"}),H.jsx(dr,{github:"https://github.com/leahsliu/music-catalog",desc:`Designed a media catalog, storing data in SQL relational 
                       databases, employing responsive 
                       design using Docker, PHP and JavaScript. The heart of 
                       the project involved automating the Extract, Transform, 
