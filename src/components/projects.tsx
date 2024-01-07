@@ -29,7 +29,7 @@ export const Projects = () => {
                 image="assets/project-images/placeholder.jpg"
                 title="Cornell University Housing"
                 skills={["React", "Typescript", "Firebase", "HTML/CSS"]}
-                moreInfo="https://github.com/pdan101/CU-Housing" />
+                moreInfo="https://leahliuportfolio.notion.site/CU-Housing-6b40fccb207b4b35829ee23754e4e417?pvs=4" />
             <ProjectDetail
                 github="https://github.com/leahsliu/music-catalog"
                 desc="Designed a media catalog, storing data in SQL relational 
