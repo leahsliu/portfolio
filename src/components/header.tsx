@@ -1,10 +1,6 @@
-// import GithubIcon from "../assets/logos/github.png"
 import '../../public/assets/fontawesome/css/fontawesome.css'
 import '../../public/assets/fontawesome/css/brands.css'
 import '../../public/assets/fontawesome/css/solid.css'
-
-// import LinkedIcon from "../assets/logos/linkedin.png"
-// import ProjectsIcon from "../assets/logos/projects.png"
 import Links from "./link.tsx";
 
 
@@ -25,11 +21,12 @@ const Header = () => {
                 <h1 className="text-7xl">Leah Liu</h1>
                 <p className="text-xl">Cornell CS+IS '24</p>
             </div>
-            <div className="flex flex-row gap-8 mb-20">
+            <div className="flex flex-row gap-8 mb-12">
                 {projectLinks.map((link) => (
                     <Links key={link.label} {...link} />
                 ))}
             </div>
+            <a href="#projects" className="fa-solid fa-arrow-down fa-bounce fa-2xl mb-20"></a>
         </div>
 
 
