@@ -19,7 +19,6 @@ const ProjectDetail: React.FC<Project> = ({ title, image, github, desc, skills, 
                         
                         xsmall:flex-col-reverse sm:flex-col-reverse">
             <img src={image} alt={title}></img>
-
             <div className="mx-auto sm:max-w-[500px]">
                 <div className="flex lg:flex-row items-center gap-4 project-header mb-2
                                 xsmall:flex-col sm:flex-col">
